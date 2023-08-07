@@ -933,7 +933,7 @@ function pokemon() {
         pokemonName.textContent=pokemon.name;
 
         const pokemonType = document.createElement('p');
-        pokemonType.textContent=`type: ${pokemon.type} `;
+        pokemonType.textContent=`Type: ${pokemon.type} `;
 
         pokemonCard.appendChild(pokemonImage);
         pokemonCard.appendChild(pokemonName);
